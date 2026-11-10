@@ -1,0 +1,39 @@
+{
+  "name": "@aiif/agys",
+  "version": "0.1.0",
+  "description": "Seamless multi-account switcher for the Antigravity CLI (agy)",
+  "bin": {
+    "agys": "bin/agys.js"
+  },
+  "main": "lib/agys.js",
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run",
+    "publish:public": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiif/agys.git"
+  },
+  "homepage": "https://github.com/aiif/agys#readme",
+  "bugs": {
+    "url": "https://github.com/aiif/agys/issues"
+  },
+  "keywords": [
+    "antigravity",
+    "agy",
+    "account",
+    "switcher",
+    "cli"
+  ],
+  "license": "MIT"
+}
